@@ -10,7 +10,7 @@
 </head>
 <body class="bg-gray-100">
     <!-- Header -->
-    <header class="relative bg-cover bg-center h-[60vh]" style="background-image: url('images/hotel.jpg');">
+    <header class="relative bg-cover bg-center h-[60vh]" style="background-image: url('C:\Users\asus\Documents Program\NetBeansProjects\Tubes-PBO\images\hotel.jpg');">
         <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
             <div class="text-center text-white space-y-4">
                 <h1 class="text-4xl md:text-6xl font-bold">Selamat Datang!</h1>
@@ -30,6 +30,12 @@
                         <label for="checkin" class="block text-gray-700 font-medium">Tanggal Check-in:</label>
                         <input type="date" id="checkin" name="checkin" required class="w-full p-3 mt-2 border rounded-lg focus:ring-2 focus:ring-blue-500">
                     </div>
+                    <!--Nama pemesan-->
+                    <div>
+                        <label for="name" class="block text-gray-700 font-medium">Nama Pemesan:</label>
+                        <input type="text" id="name" name="name" required class="w-full p-3 mt-2 border rounded-lg focus:ring-2 focus:ring-blue-500">
+                    </div>
+
                     <!-- Check-out -->
                     <div>
                         <label for="checkout" class="block text-gray-700 font-medium">Tanggal Check-out:</label>
@@ -106,7 +112,7 @@
                 }
             }).then((result) => {
                 if (result.isConfirmed) {
-                    window.location.href = `pembayaran.jsp?paymentMethod=${selectedPaymentMethod}`;
+                    window.location.href = `payment.jsp?paymentMethod=${selectedPaymentMethod}`;
                 }
             });
         }
