@@ -1,3 +1,9 @@
+<%-- 
+    Document   : landing
+    Created on : 15 Dec 2024, 22:41:05
+    Author     : asus
+--%>
+
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -25,7 +31,7 @@
         }
         
         body {
-            background-image: url('images/hotel aja hotel.jpg');
+            background-image: url('images/hotel.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -42,8 +48,8 @@
             <h2 class="text-xl font-bold mb-4">List Hotel</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
-                    <a href="reservasi.jsp" class="block">
-                        <img src="/api/placeholder/300/200" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
+                    <a href="reservation.jsp" class="block">
+                        <img src="../images/hotel.jpg" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">Hotel 1</h3>
                             <p class="text-gray-500">Deskripsi hotel singkat</p>
@@ -55,7 +61,7 @@
                     </a>
                 </div>
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
-                    <a href="reservasi.jsp" class="block">
+                    <a href="reservation.jsp" class="block">
                         <img src="/api/placeholder/300/200" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">Hotel 2</h3>
@@ -68,7 +74,7 @@
                     </a>
                 </div>
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
-                    <a href="reservasi.jsp" class="block">
+                    <a href="reservation.jsp" class="block">
                         <img src="/api/placeholder/300/200" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">Hotel 3</h3>
@@ -81,7 +87,7 @@
                     </a>
                 </div>
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
-                    <a href="reservasi.jsp" class="block">
+                    <a href="reservation.jsp" class="block">
                         <img src="/api/placeholder/300/200" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">Hotel 4</h3>
@@ -94,7 +100,7 @@
                     </a>
                 </div>
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
-                    <a href="reservasi.jsp" class="block">
+                    <a href="reservation.jsp" class="block">
                         <img src="/api/placeholder/300/200" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">Hotel 5</h3>
@@ -107,7 +113,7 @@
                     </a>
                 </div>
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
-                    <a href="reservasi.jsp" class="block">
+                    <a href="reservation.jsp" class="block">
                         <img src="/api/placeholder/300/200" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">Hotel 6</h3>
@@ -120,7 +126,7 @@
                     </a>
                 </div>
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
-                    <a href="reservasi.jsp" class="block">
+                    <a href="reservation.jsp" class="block">
                         <img src="/api/placeholder/300/200" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">Hotel 7</h3>
@@ -133,7 +139,7 @@
                     </a>
                 </div>
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
-                    <a href="reservasi.jsp" class="block">
+                    <a href="reservation.jsp" class="block">
                         <img src="/api/placeholder/300/200" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">Hotel 8</h3>
@@ -146,7 +152,7 @@
                     </a>
                 </div>
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
-                    <a href="reservasi.jsp" class="block">
+                    <a href="reservation.jsp" class="block">
                         <img src="/api/placeholder/300/200" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">Hotel 9</h3>
@@ -159,7 +165,7 @@
                     </a>
                 </div>
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
-                    <a href="reservasi.jsp" class="block">
+                    <a href="reservation.jsp" class="block">
                         <img src="/api/placeholder/300/200" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">Hotel 10</h3>
