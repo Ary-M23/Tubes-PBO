@@ -34,29 +34,26 @@
                             </div>
                         <% } %>
                     </div>
-                    <div class="flex items-center justify-between">
-                        <span class="font-medium">No. Pesanan:</span>
-                        <span>69</span>
-                    </div>
+                    <jsp:useBean id="reservation" class="model.Reservation" scope="request" />
                     <div class="flex items-center justify-between">
                         <span class="font-medium">Nama Pemesan:</span>
-                        <span>Lil Kur</span>
+                        <span><%= reservation.getName() %></span>
                     </div>
                     <div class="flex items-center justify-between">
-                        <span class="font-medium">Jenis Kamar:</span>
-                        <span>Standard</span>
+                        <span class="font-medium">Check-in:</span>
+                        <span><%= reservation.getCheckIn() %></span>
                     </div>
                     <div class="flex items-center justify-between">
-                        <span class="font-medium">Jumlah Orang:</span>
-                        <span>90</span>
+                        <span class="font-medium">Check-out:</span>
+                        <span><%= reservation.getCheckOut() %></span>
                     </div>
                     <div class="flex items-center justify-between">
-                        <span class="font-medium">Harga:</span>
-                        <span>Rp 500.000</span>
+                        <span class="font-medium">Jumlah Tamu:</span>
+                        <span><%= reservation.getGuests() %></span>
                     </div>
                     <div class="flex items-center justify-between">
-                        <span class="font-medium">Diskon:</span>
-                        <span>Tidak ada</span>
+                        <span class="font-medium">Tipe Kamar:</span>
+                        <span><%= reservation.getRoomType() %></span>
                     </div>
                     <div class="flex items-center justify-between font-bold text-2xl">
                         <span>Total Bayar:</span>
