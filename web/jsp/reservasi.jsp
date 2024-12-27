@@ -21,7 +21,7 @@
     <main class="py-10" "bg-gray-100" style="background-color: #f5e4c8;">
         <section class="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
             <h2 class="text-2xl font-bold text-gray-800 text-center mb-6">Formulir Reservasi</h2>
-            <form action="ReservationServlet" method="post" class="space-y-6">
+            <form action="pembayaran.jsp" method="post" class="space-y-6">
                 <!-- Nama -->
                 <div>
                     <label for="name" class="block text-gray-700 font-medium">Nama Lengkap:</label>

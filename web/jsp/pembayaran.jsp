@@ -15,20 +15,20 @@
         <header style="background-color: #f5e4c8; padding: 16px; border-radius: 8px; margin-bottom: 16px;">
             <h1 class="text-2xl font-bold mb-2">Pembayaran</h1>
             <%
-                // Ambil metode pembayaran dari parameter URL
-                String paymentMethod = request.getParameter("paymentMethod");
+                // Ambil data dari servlet
+                String paymentMethod = (String) request.getAttribute("paymentMethod");
+                String name = (String) request.getAttribute("name");
+                String roomType = (String) request.getAttribute("roomType");
+                String tanggalReservasi = (String) request.getAttribute("tanggalReservasi");
 
-                // Cek jika paymentMethod null dan berikan nilai default
-                if (paymentMethod == null) {
-                    paymentMethod = ""; // Atau bisa diset ke nilai default lain
-                }
+                // Default nilai jika atribut tidak ada
+                if (paymentMethod == null) paymentMethod = "Metode tidak diketahui";
+                if (name == null) name = "Nama tidak diketahui";
+                if (roomType == null) roomType = "Jenis kamar tidak diketahui";
+                if (tanggalReservasi == null) tanggalReservasi = "Tanggal tidak diketahui";
 
                 // Dapatkan waktu sekarang dan hitung batas waktu pembayaran
                 java.util.Calendar calendar = java.util.Calendar.getInstance();
-                int currentHour = calendar.get(java.util.Calendar.HOUR_OF_DAY);
-                int currentMinute = calendar.get(java.util.Calendar.MINUTE);
-
-                // Tambahkan 1 jam untuk batas pembayaran
                 calendar.add(java.util.Calendar.HOUR_OF_DAY, 1);
                 int deadlineHour = calendar.get(java.util.Calendar.HOUR_OF_DAY);
                 int deadlineMinute = calendar.get(java.util.Calendar.MINUTE);
@@ -62,20 +62,16 @@
                         <% } %>
                     </div>
                     <div class="flex items-center justify-between">
-                        <span class="font-medium">No. Pesanan:</span>
-                        <span>69</span>
+                        <span class="font-medium">Nama Pemesan:</span>
+                        <span><%= name %></span>
                     </div>
                     <div class="flex items-center justify-between">
-                        <span class="font-medium">Nama Pemesan:</span>
-                        <span>Lil Kur</span>
+                        <span class="font-medium">Tanggal Check-in:</span>
+                        <span><%= tanggalReservasi %></span>
                     </div>
                     <div class="flex items-center justify-between">
                         <span class="font-medium">Jenis Kamar:</span>
-                        <span>Standard</span>
-                    </div>
-                    <div class="flex items-center justify-between">
-                        <span class="font-medium">Jumlah Orang:</span>
-                        <span>90</span>
+                        <span><%= roomType %></span>
                     </div>
                     <div class="flex items-center justify-between">
                         <span class="font-medium">Harga:</span>

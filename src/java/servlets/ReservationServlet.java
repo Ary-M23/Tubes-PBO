@@ -20,15 +20,20 @@ public class ReservationServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String name = request.getParameter("name");
         String tanggalReservasi = request.getParameter("checkin");
-        int idKamar = Integer.parseInt(request.getParameter("room-type"));
-        int idPelanggan = 1; // Dummy data
-        int idMetodeTunai = 0;
-        int idMetodeTransfer = 1; // Dummy data
-        String idStaff = "admin"; // Dummy data
+        String roomType = request.getParameter("room-type");
+        String paymentMethod = request.getParameter("payment-method");
 
+        // Simpan data ke database (bisa melalui controller)
         ReservationController controller = new ReservationController();
-        controller.createReservation(idPelanggan, idKamar, idMetodeTunai, idMetodeTransfer, idStaff, tanggalReservasi);
+        controller.createReservation(1, 1, 0, 1, "admin", tanggalReservasi);
 
-        response.sendRedirect("pembayaran.jsp");
+        // Tambahkan data ke request untuk diteruskan ke pembayaran.jsp
+        request.setAttribute("name", name);
+        request.setAttribute("tanggalReservasi", tanggalReservasi);
+        request.setAttribute("roomType", roomType);
+        request.setAttribute("paymentMethod", paymentMethod);
+
+        // Forward ke pembayaran.jsp
+        request.getRequestDispatcher("jsp/pembayaran.jsp").forward(request, response);
     }
 }

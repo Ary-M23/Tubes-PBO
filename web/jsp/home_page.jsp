@@ -46,7 +46,7 @@
             <h2 class="text-xl font-bold mb-4">List Hotel</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
-                    <a href="reservasi.jsp" class="block">
+                    <a href="jsp/reservasi.jsp" class="block">
                         <img src="gambar/hotel1.webp" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">Beachfront Paradise Resort</h3>
@@ -59,7 +59,7 @@
                     </a>
                 </div>
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
-                    <a href="reservasi.jsp" class="block">
+                    <a href="jsp/reservasi.jsp" class="block">
                         <img src="gambar/hotel2.webp" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">Mountain Lodge Retreat</h3>
@@ -72,7 +72,7 @@
                     </a>
                 </div>
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
-                    <a href="reservasi.jsp" class="block">
+                    <a href="jsp/reservasi.jsp" class="block">
                         <img src="gambar/hotel3.webp" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">Futuristic Skyline Hotel</h3>
@@ -85,7 +85,7 @@
                     </a>
                 </div>
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
-                    <a href="reservasi.jsp" class="block">
+                    <a href="jsp/reservasi.jsp" class="block">
                         <img src="gambar/hotel4.webp" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">Zen Garden Ryokan</h3>
@@ -98,7 +98,7 @@
                     </a>
                 </div>
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
-                    <a href="reservasi.jsp" class="block">
+                    <a href="jsp/reservasi.jsp" class="block">
                         <img src="gambar/hotel5.webp" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">Vintage European Charm Hotel</h3>
@@ -111,7 +111,7 @@
                     </a>
                 </div>
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
-                    <a href="reservasi.jsp" class="block">
+                    <a href="jsp/reservasi.jsp" class="block">
                         <img src="gambar/hotel6.webp" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">Minimalist Urban Stay</h3>
@@ -124,7 +124,7 @@
                     </a>
                 </div>
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
-                    <a href="reservasi.jsp" class="block">
+                    <a href="jsp/reservasi.jsp" class="block">
                         <img src="gambar/hotel7.webp" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">Art Gallery Boutique Hotel</h3>
@@ -137,7 +137,7 @@
                     </a>
                 </div>
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
-                    <a href="reservasi.jsp" class="block">
+                    <a href="jsp/reservasi.jsp" class="block">
                         <img src="gambar/hotel8.webp" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">Tropical Overwater Resort</h3>
@@ -150,7 +150,7 @@
                     </a>
                 </div>
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
-                    <a href="reservasi.jsp" class="block">
+                    <a href="jsp/reservasi.jsp" class="block">
                         <img src="gambar/hotel9.webp" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">Opulent Palace Hotel</h3>
@@ -163,7 +163,7 @@
                     </a>
                 </div>
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
-                    <a href="reservasi.jsp" class="block">
+                    <a href="jsp/reservasi.jsp" class="block">
                         <img src="gambar/hotel10.webp" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">City View Budget Inn</h3>
