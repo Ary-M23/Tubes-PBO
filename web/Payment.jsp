@@ -61,6 +61,7 @@
                             <p>Metode pembayaran tidak tersedia.</p>
                         <% } %>
                     </div>
+<<<<<<<< HEAD:build/web/jsp/pembayaran.jsp
                     <div class="flex items-center justify-between">
                         <span class="font-medium">Nama Pemesan:</span>
                         <span><%= name %></span>
@@ -72,14 +73,28 @@
                     <div class="flex items-center justify-between">
                         <span class="font-medium">Jenis Kamar:</span>
                         <span><%= roomType %></span>
+========
+                    <jsp:useBean id="reservation" class="model.Reservation" scope="request" />
+                    <div class="flex items-center justify-between">
+                        <span class="font-medium">Nama Pemesan:</span>
+                        <span><%= reservation.getName() %></span>
                     </div>
                     <div class="flex items-center justify-between">
-                        <span class="font-medium">Harga:</span>
-                        <span>Rp 500.000</span>
+                        <span class="font-medium">Check-in:</span>
+                        <span><%= reservation.getCheckIn() %></span>
                     </div>
                     <div class="flex items-center justify-between">
-                        <span class="font-medium">Diskon:</span>
-                        <span>Tidak ada</span>
+                        <span class="font-medium">Check-out:</span>
+                        <span><%= reservation.getCheckOut() %></span>
+>>>>>>>> e80f3bf142c61589b63433e5ce2fcae43686b57a:web/Payment.jsp
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <span class="font-medium">Jumlah Tamu:</span>
+                        <span><%= reservation.getGuests() %></span>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <span class="font-medium">Tipe Kamar:</span>
+                        <span><%= reservation.getRoomType() %></span>
                     </div>
                     <div class="flex items-center justify-between font-bold text-2xl">
                         <span>Total Bayar:</span>

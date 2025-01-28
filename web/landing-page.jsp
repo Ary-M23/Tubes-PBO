@@ -1,3 +1,9 @@
+<%-- 
+    Document   : landing
+    Created on : 15 Dec 2024, 22:41:05
+    Author     : asus
+--%>
+
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -14,7 +20,11 @@
         }
         
         body {
+<<<<<<<< HEAD:web/jsp/home_page.jsp
             background-image: url('gambar/hotel.jpg');
+========
+            background-image: url('images/hotel.jpg');
+>>>>>>>> e80f3bf142c61589b63433e5ce2fcae43686b57a:web/landing-page.jsp
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -46,8 +56,13 @@
             <h2 class="text-xl font-bold mb-4">List Hotel</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
+<<<<<<<< HEAD:web/jsp/home_page.jsp
                     <a href="jsp/reservasi.jsp" class="block">
                         <img src="gambar/hotel1.webp" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
+========
+                    <a href="reservation.jsp" class="block">
+                        <img src="../images/hotel.jpg" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
+>>>>>>>> e80f3bf142c61589b63433e5ce2fcae43686b57a:web/landing-page.jsp
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">Beachfront Paradise Resort</h3>
                             <p class="text-gray-500">Deskripsi hotel singkat</p>
@@ -59,8 +74,13 @@
                     </a>
                 </div>
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
+<<<<<<<< HEAD:web/jsp/home_page.jsp
                     <a href="jsp/reservasi.jsp" class="block">
                         <img src="gambar/hotel2.webp" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
+========
+                    <a href="reservation.jsp" class="block">
+                        <img src="/api/placeholder/300/200" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
+>>>>>>>> e80f3bf142c61589b63433e5ce2fcae43686b57a:web/landing-page.jsp
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">Mountain Lodge Retreat</h3>
                             <p class="text-gray-500">Deskripsi hotel singkat</p>
@@ -72,8 +92,13 @@
                     </a>
                 </div>
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
+<<<<<<<< HEAD:web/jsp/home_page.jsp
                     <a href="jsp/reservasi.jsp" class="block">
                         <img src="gambar/hotel3.webp" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
+========
+                    <a href="reservation.jsp" class="block">
+                        <img src="/api/placeholder/300/200" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
+>>>>>>>> e80f3bf142c61589b63433e5ce2fcae43686b57a:web/landing-page.jsp
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">Futuristic Skyline Hotel</h3>
                             <p class="text-gray-500">Deskripsi hotel singkat</p>
@@ -85,8 +110,13 @@
                     </a>
                 </div>
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
+<<<<<<<< HEAD:web/jsp/home_page.jsp
                     <a href="jsp/reservasi.jsp" class="block">
                         <img src="gambar/hotel4.webp" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
+========
+                    <a href="reservation.jsp" class="block">
+                        <img src="/api/placeholder/300/200" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
+>>>>>>>> e80f3bf142c61589b63433e5ce2fcae43686b57a:web/landing-page.jsp
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">Zen Garden Ryokan</h3>
                             <p class="text-gray-500">Deskripsi hotel singkat</p>
@@ -98,8 +128,13 @@
                     </a>
                 </div>
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
+<<<<<<<< HEAD:web/jsp/home_page.jsp
                     <a href="jsp/reservasi.jsp" class="block">
                         <img src="gambar/hotel5.webp" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
+========
+                    <a href="reservation.jsp" class="block">
+                        <img src="/api/placeholder/300/200" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
+>>>>>>>> e80f3bf142c61589b63433e5ce2fcae43686b57a:web/landing-page.jsp
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">Vintage European Charm Hotel</h3>
                             <p class="text-gray-500">Deskripsi hotel singkat</p>
@@ -111,8 +146,13 @@
                     </a>
                 </div>
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
+<<<<<<<< HEAD:web/jsp/home_page.jsp
                     <a href="jsp/reservasi.jsp" class="block">
                         <img src="gambar/hotel6.webp" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
+========
+                    <a href="reservation.jsp" class="block">
+                        <img src="/api/placeholder/300/200" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
+>>>>>>>> e80f3bf142c61589b63433e5ce2fcae43686b57a:web/landing-page.jsp
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">Minimalist Urban Stay</h3>
                             <p class="text-gray-500">Deskripsi hotel singkat</p>
@@ -124,8 +164,13 @@
                     </a>
                 </div>
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
+<<<<<<<< HEAD:web/jsp/home_page.jsp
                     <a href="jsp/reservasi.jsp" class="block">
                         <img src="gambar/hotel7.webp" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
+========
+                    <a href="reservation.jsp" class="block">
+                        <img src="/api/placeholder/300/200" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
+>>>>>>>> e80f3bf142c61589b63433e5ce2fcae43686b57a:web/landing-page.jsp
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">Art Gallery Boutique Hotel</h3>
                             <p class="text-gray-500">Deskripsi hotel singkat</p>
@@ -137,8 +182,13 @@
                     </a>
                 </div>
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
+<<<<<<<< HEAD:web/jsp/home_page.jsp
                     <a href="jsp/reservasi.jsp" class="block">
                         <img src="gambar/hotel8.webp" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
+========
+                    <a href="reservation.jsp" class="block">
+                        <img src="/api/placeholder/300/200" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
+>>>>>>>> e80f3bf142c61589b63433e5ce2fcae43686b57a:web/landing-page.jsp
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">Tropical Overwater Resort</h3>
                             <p class="text-gray-500">Deskripsi hotel singkat</p>
@@ -150,8 +200,13 @@
                     </a>
                 </div>
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
+<<<<<<<< HEAD:web/jsp/home_page.jsp
                     <a href="jsp/reservasi.jsp" class="block">
                         <img src="gambar/hotel9.webp" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
+========
+                    <a href="reservation.jsp" class="block">
+                        <img src="/api/placeholder/300/200" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
+>>>>>>>> e80f3bf142c61589b63433e5ce2fcae43686b57a:web/landing-page.jsp
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">Opulent Palace Hotel</h3>
                             <p class="text-gray-500">Deskripsi hotel singkat</p>
@@ -163,8 +218,13 @@
                     </a>
                 </div>
                 <div class="hotel-item bg-white shadow-md p-4 rounded-lg">
+<<<<<<<< HEAD:web/jsp/home_page.jsp
                     <a href="jsp/reservasi.jsp" class="block">
                         <img src="gambar/hotel10.webp" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
+========
+                    <a href="reservation.jsp" class="block">
+                        <img src="/api/placeholder/300/200" alt="Hotel Image" class="w-full h-32 object-cover rounded-t-lg">
+>>>>>>>> e80f3bf142c61589b63433e5ce2fcae43686b57a:web/landing-page.jsp
                         <div class="hotel-content">
                             <h3 class="text-lg font-bold mt-2">City View Budget Inn</h3>
                             <p class="text-gray-500">Deskripsi hotel singkat</p>
